@@ -1,0 +1,635 @@
+body {
+	font-size: 13px !important;
+	font-family: 'Poppins', sans-serif !important;
+}
+.mb-5rem {
+	margin-bottom: 5rem !important;
+}
+
+.mb-0{
+	margin-bottom: 0 !important;
+}
+
+.h-41px{
+	height: 41px !important;
+}
+.red-text{ color: red !important;}
+sup{
+	font-size: 13px !important;
+}
+.btn:focus {
+	outline: 0;
+	box-shadow: none !important;
+}
+
+.btn-light-primary {
+	color: #3699ff !important;
+	background-color: #e1f0ff !important;
+	border-color: transparent !important;
+}
+
+.btn-light-primary:hover {
+	color: #fff !important;
+	background-color: #3699ff !important;
+	border-color: transparent !important;
+}
+
+a:hover {
+	color: #0056b3 !important;
+	text-decoration: underline;
+}
+
+
+
+.login-banner {
+	// background: linear-gradient(0deg, rgba(0, 98, 193, 0.58), rgba(67, 48, 154, 0.47)), url(https://keenthemes.com/metronic/themes/metronic/doc/assets/img//preview/header-bg.jpg);
+	background: linear-gradient(0deg, #3F51B5, rgb(19, 116, 212));
+	height: 100vh;
+	width: 100%;
+	padding: 2.5rem;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.credentials .logo img {
+	max-height: 90px!important;
+}
+
+.credentials .welcome-content {
+	min-height: 70vh;
+}
+
+.credentials .welcome-content h3 {
+	color: #fff!important;
+	font-size: 26px !important;
+	margin-bottom: 1.25rem!important;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+.credentials .welcome-content p {
+	color: #fff!important;
+	font-size: 15px !important;
+	opacity: .8!important;
+	font-weight: lighter!important;
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+.credentials .form-content {
+	padding: 1.75rem;
+	max-height: 100vh;
+	overflow-y: auto;
+}
+
+.credentials .form-group {
+	margin-bottom: 1.75rem !important;
+}
+
+.login-signin,
+.login-forgot {
+	width: 100%;
+	max-width: 400px;
+	padding: 15px;
+	margin: 7rem auto 1rem;
+}
+.login-signup {
+	width: 100%;
+	max-width: 400px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.login-signin h3,
+.login-signup h3,
+.login-forgot h3 {
+	color: #3F4254;
+	font-size: 26px;
+	margin: 0 0 6.5px;
+	font-weight: 400;
+}
+
+.login-signin p,
+.login-signup p,
+.login-forgot p {
+	color: #b5b5c3!important;
+	font-size: 13px;
+	margin: 0 0 13px;
+}
+
+.login-signin .form-control,
+.login-signup .form-control,
+.login-forgot .form-control {
+	display: block;
+	width: 100%;
+	height: auto;
+	padding: 16.25px 19.5px !important;
+	font-size: 13px !important;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #e8f0fd;
+	background-clip: padding-box;
+	border: 0 !important;
+	border-radius: .42rem;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.login-signin .form-control:focus,
+.login-signup .form-control:focus,
+.login-forgot .form-control:focus {
+	background-color: #ebedf3;
+	border-color: 0 !important;
+	color: #3f4254;
+	box-shadow: none !important;
+	outline: 0 !important;
+}
+
+.login-signin .forgotPasswordLabel,
+.login-signup .forgotPasswordLabel,
+.login-forgot .forgotPasswordLabel {
+	color: #007bff;
+	font-size: 13px;
+	margin: 9.75px 6.5px 9.75px 0;
+}
+
+.login-signin .btn,
+.login-signup .btn,
+.login-forgot .btn {
+	margin: 9.75px 0;
+	font-size: 13px;
+	padding: 13px 29.25px;
+	background: #3699FF;
+	border: 1px solid #3699FF;
+	color: #fff;
+}
+
+.login-signin .btn:hover,
+.login-signup .btn:hover,
+.login-forgot .btn:hover {
+	color: #fff;
+	background-color: #187de4;
+	border-color: #187de4;
+}
+
+.signup-link {
+	background: #fff !important;
+	position: absolute!important;
+	top: 0;
+	right: 0;
+	color: #3F4254;
+	text-align: right!important;
+	padding: 32.5px;
+	width: 100%;
+	z-index: 99;
+}
+
+.signup-link span {
+	color: #7e8299!important;
+	font-size: 13px!important;
+}
+
+.signup-link a {
+	color: #3699FF;
+	font-size: 13px;
+	margin-left: 6.5px;
+}
+// credentials end
+
+
+
+
+
+
+
+
+// /* toaster start */
+// .swal2-title {
+//     position: relative;
+//     max-width: 100%;
+//     margin: 0 0 .4em;
+//     padding: 0;
+//     color: #595959;
+//     font-size: 13px !important;
+//     font-weight: 600;
+//     text-align: center;
+//     text-transform: none;
+//     word-wrap: break-word;
+// }
+// .swal2-popup{
+// 	position: absolute !important;
+// 	top: 0 !important;
+// 	padding: 39px 40px 40px 120px !important;
+// 	width: max-content !important;
+// 	max-width: 30rem !important;
+// }
+// .swal2-icon{
+// 	position: absolute !important;
+//     left: 1.25rem;
+// 	top: 1.25rem;
+// 	width: 3em !important;
+//     height: 3em !important;
+// 	margin: 0 auto !important;
+// }
+// .swal2-icon.swal2-error [class^=swal2-x-mark-line] {
+//     display: block;
+//     position: absolute;
+//     top: 23px !important;
+//     width: 23px !important;
+//     height: 4px !important;
+//     border-radius: .125em;
+//     background-color: #f27474;
+// }
+// .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left] {
+//     left: 13px !important;
+//     transform: rotate(45deg);
+// }
+// .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right] {
+//     right: 13px !important;
+//     transform: rotate(-45deg);
+// }
+// .swal2-success-circular-line-left, .swal2-success-fix, .swal2-success-circular-line-right{
+// 	background: transparent !important;
+// }
+
+// .swal2-icon.swal2-success [class^=swal2-success-line][class$=tip] {
+//     top: 28px !important;
+//     left: 6px !important;
+//     width: 15px !important;
+// }
+// .swal2-icon.swal2-success [class^=swal2-success-line][class$=long] {
+//     top: 23px !important;
+//     right: 3px !important;
+//     width: 33px !important;
+//     transform: rotate(-45deg);
+// }
+// .btn.disabled, .btn:disabled {
+//     cursor: not-allowed !important;
+// }
+// @media only screen and (max-width: 576px) {
+// .swal2-popup{
+//     width: 100% !important;
+// }
+// }
+// /* toaster end */
+// @media only screen and (max-width: 576px) {
+// 	.login-banner {
+// 		// background: linear-gradient(0deg, rgb(55, 152, 247), rgb(55, 152, 247)), url(https://keenthemes.com/metronic/themes/metronic/doc/assets/img//preview/header-bg.jpg);
+// 		background: linear-gradient(0deg, #3F51B5, rgb(19, 116, 212));
+// 		height: 1vh;
+// 		width: 100%;
+// 		padding: 0;
+// 		background-size: cover;
+// 		background-repeat: no-repeat;
+// 		background-position: top;
+//     }
+//     .login-signin, .login-forgot{
+//         margin: 4rem auto 1rem;
+//     }
+//     .login-signin h3, .login-signup h3, .login-forgot h3 {
+//         color: #3F4254;
+//         font-size: 22px;
+//     }
+// }
+
+// @media only screen and (max-width: 768px) {
+// 	.login-banner {
+// 		// background: linear-gradient(0deg, rgb(55, 152, 247), rgb(55, 152, 247)), url(https://keenthemes.com/metronic/themes/metronic/doc/assets/img//preview/header-bg.jpg);
+// 		background: linear-gradient(0deg, #3F51B5, rgb(19, 116, 212));
+// 		height: 1vh;
+// 		width: 100%;
+// 		padding: 0;
+// 		background-size: cover;
+// 		background-repeat: no-repeat;
+// 		background-position: top;
+// 	}
+// }
+
+
+
+
+
+
+
+
+
+
+
+// /* header begin */
+
+
+// .navbar-nav {
+// 	font-size: 13px !important;
+// }
+
+// .navbar-brand {
+// 	display: inline-block;
+// 	font-size: 1rem !important;
+// 	font-weight: 500;
+// 	text-transform: uppercase;
+// 	padding-top: 3.5px !important;
+// 	padding-bottom: 3.5px !important;
+// 	margin-right: 5rem !important;
+// }
+
+// .navbar-brand img {
+// 	margin-right: .5rem;
+// 	width: 42px;
+// 	height: 42px;
+// 	object-fit: cover;
+// 	border-radius: 2px;
+// }
+
+// .navbar-brand span {
+// 	vertical-align: middle;
+// }
+
+// .subheader {
+// 	position: fixed;
+// 	top: 65px;
+// 	width: 100%;
+// 	left: 0;
+// 	padding: 1rem 25px;
+// 	height: 54px;
+// 	z-index: 999;
+// 	-webkit-box-shadow: 0 10px 30px 0 rgba(82, 63, 105, .08);
+// 	box-shadow: 0 10px 30px 0 rgba(82, 63, 105, .08);
+// 	background-color: #fff;
+// 	border-top: 1px solid #ebedf3 !important;
+// }
+
+// .subheader h5 {
+// 	color: #181C32;
+// 	font-size: 16.25px;
+// 	margin-bottom: 0;
+// }
+
+// .subheader span {
+// 	color: #B5B5C3;
+// 	font-size: 13px;
+// }
+
+// .subheader-separator {
+// 	width: 1px;
+// 	height: 22px;
+// 	background-color: #ebedf3!important;
+// 	margin: 0 1rem;
+// }
+
+// a, .btn{
+// 	cursor: pointer !important;
+// }
+
+// /* header end */
+
+// .container-fluid {
+// 	padding: 0 25px !important;
+// }
+
+// .main-content {
+// 	padding: 25px;
+// }
+
+// .dropdown-menu {
+// 	border: 0 solid rgba(0, 0, 0, .15) !important;
+// 	border-radius: .42rem !important;
+// 	-webkit-box-shadow: 0 0 50px 0 rgba(82, 63, 105, .15) !important;
+// 	box-shadow: 0 0 50px 0 rgba(82, 63, 105, .15) !important;
+// 	font-size: 13px !important;
+// }
+
+// .dropdown-item {
+// 	display: -webkit-box;
+// 	display: -ms-flexbox;
+// 	display: flex;
+// 	-webkit-box-align: center;
+// 	-ms-flex-align: center;
+// 	align-items: center;
+// 	padding: .75rem 1.5rem !important;
+// 	color: #3f4254;
+// }
+
+// .dropdown-item.active,
+// .dropdown-item:active {
+// 	color: #3f4254 !important;
+// 	text-decoration: none !important;
+// 	background-color: transparent !important;
+// }
+
+// .card {
+// 	width: 100%;
+// 	-webkit-box-shadow: 0 0 30px 0 rgba(82, 63, 105, .05);
+// 	box-shadow: 0 0 30px 0 rgba(82, 63, 105, .05);
+// 	border: 0 !important;
+// 	padding: 25px;
+// }
+
+// .light-primary-btn {
+// 	color: #3699ff;
+// 	background-color: #f3f6f9;
+// 	border-color: transparent;
+// }
+
+// .light-primary-btn:hover {
+// 	color: #fff;
+// 	background-color: #3699ff;
+// 	border-color: #3699ff;
+// }
+
+// .btn.btn-primary {
+// 	color: #fff;
+// 	background-color: #3699ff;
+// 	border-color: #3699ff;
+// }
+
+// .btn.btn-primary:hover {
+// 	color: #fff;
+// 	background-color: #187de4;
+// 	border-color: #187de4;
+// }
+
+// .light-danger-btn {
+// 	background-color: #ff000026;
+// 	border-color: #ff000026;
+// 	color: red;
+// }
+
+// .light-danger-btn:hover {
+// 	background-color: red;
+// 	border-color: red;
+// 	color: #fff;
+// }
+
+// .btn:focus, button:focus {
+// 	outline: 0 !important;
+// 	box-shadow: none !important;
+// }
+
+// .btn {
+// 	font-size: 13px !important;
+// }
+// .btn.disabled, .btn:disabled {
+//     cursor: not-allowed !important;
+// }
+// .btn-secondary {
+// 	color: #fff;
+// 	background-color: #ababab !important;
+// 	border-color: #ababab !important;
+// }
+
+// .btn-secondary:hover {
+// 	color: #fff;
+// 	background-color: #888 !important;
+// 	border-color: #888 !important;
+// }
+// .nobg-deleteBtn{
+// 	color: red !important;
+// 	background: transparent !important;
+// }
+// .nobg-deleteBtn:hover{
+// 	background-color: red !important;
+// 	border-color: red;
+// 	color: #fff !important;
+// }
+// .nobg-deleteBtn i{
+// 	font-size: 16px !important;
+// }
+// .transparent-btn, .transparent-btn:hover, .transparent-btn:focus{
+// 	background-color: transparent !important;
+// 	border-color: transparent !important;
+// }
+// .form-control:focus {
+// 	outline: 0 !important;
+// 	box-shadow: none !important;
+// 	border-color: #80bdff !important;
+// }
+
+// ::placeholder {
+// 	/* Chrome, Firefox, Opera, Safari 10.1+ */
+// 	color: #B5B5C3 !important;
+// 	opacity: 1;
+// 	/* Firefox */
+// }
+// /* select2 select start */
+// .select2-container{
+// 	width: 100%!important;
+// }
+// .select2-container--default .select2-selection--single {
+//     background-color: #f3f3f7 !important;
+//     border: 1px solid #f3f3f7 !important;
+//     border-radius: .25rem !important;
+// }
+// .select2-container .select2-selection--single{
+// 	height: 41px !important;
+// }
+// .select2-container--default .select2-selection--single .select2-selection__rendered {
+// 	color: #212529 !important;
+// 	text-transform: capitalize;
+//     line-height: 40px !important;
+// }
+// .select2-container .select2-selection--single,
+// .select2-container--default .select2-search--dropdown .select2-search__field
+// 	{
+// 	outline: 0 !important;
+// 	box-shadow: none !important;
+// 	border: 0 !important;
+// }
+// .select2-dropdown{
+// 	border: 0 solid rgba(0, 0, 0, .15) !important;
+// 	border-radius: .42rem !important;
+// 	-webkit-box-shadow: 0 0 50px 0 rgba(82, 63, 105, .15) !important;
+// 	box-shadow: 0 0 50px 0 rgba(82, 63, 105, .15) !important;
+// 	font-size: 13px !important;
+// }
+// .select2-container--default .select2-selection--single .select2-selection__arrow{
+// 	display: none;
+// }
+// .select2-container--default .select2-search--dropdown .select2-search__field {
+// 	border: 1px solid #eeedf2 !important;
+// 	padding: .5rem 10px !important;
+//     background: #f0eff4;
+//     border-radius: .25rem;
+// }
+// .select2-results__option {
+// 	padding: .75rem 10px !important;
+// }
+// .select2-container .select2-selection--single .select2-selection__rendered{
+// 	padding-left: 10px !important;
+// }
+// .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable{
+// 	color: #16181b !important;
+// 	background: #f8f9fa !important;
+// }
+// .select2-container--default .select2-results__option--selected {
+//     background-color: #f8f9fa !important;
+// }
+// .select2 .select2-container .select2-container--default{
+// 	/* min-width: calc(100% - 41px) !important; */
+// 	width: 100% !important;
+// }
+// /* select2 select end */
+// @media (max-width: 576px) {
+// 	.subheader {
+// 		padding: 1rem;
+// 	}
+// 	.container-fluid {
+// 		padding: 1rem !important;
+// 	}
+// 	.card{
+// 		padding: 1rem !important;
+// 	}
+// 	.main-content{
+// 		padding: 1rem !important;
+// 	}
+// 	.table-responsive{
+// 		margin-bottom: 1rem !important;
+// 	}
+// 	.mob-d-none{
+// 		display: none !important;
+// 	}
+// 	.modal-dialog{
+// 		margin: 1rem !important;
+// 	}
+// }
+
+// /* delete modal start. */
+
+// #deleteModal{
+//     z-index: 999999;
+// }
+
+// #deleteModal img {
+// 	width: 72px;
+// 	height: 72px;
+// 	background-size: cover;
+// }
+
+// #deleteModal h4 {
+// 	color: #181c32;
+// 	font-size: 16.9px !important;
+// 	margin: 26px 0 0 !important;
+// }
+
+// #deleteModal h6 {
+// 	font-weight: 400;
+// 	font-size: 14.3px;
+// 	margin-top: 1.5rem;
+// 	color: #3f4254;
+// }
+
+// #deleteModal .modal-content {
+// 	border: 0 !important;
+// }
+// #deleteModal .deleteCancelDiv {
+// 	margin: 1.5rem 0 1rem 0;
+// }
+// @media (min-width: 576px) {
+// 	#deleteModal .modal-dialog {
+// 		max-width: 380px;
+// 		margin: 1.75rem auto;
+// 	}
+// }
+/* delete modal end. */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
